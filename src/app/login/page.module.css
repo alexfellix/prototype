@@ -1,0 +1,26 @@
+.div {
+  text-align: center;
+  padding: 200px 0 340px 0;
+  background: #E6516C;
+  color: #fff;
+}
+.h1 {
+  padding: 40px 0;
+}
+.divUser {
+  padding: 7px;
+}
+.labelUser {
+  padding: 10px;
+}
+.divPassword {
+  padding: 7px;
+}
+.labelPassword {
+  padding: 10px;
+}
+.button {
+  padding: 5px;
+  border: 0;
+  margin: 30px 0;
+}
