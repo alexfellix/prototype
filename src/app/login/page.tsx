@@ -4,7 +4,7 @@ import {useState} from 'react'
 import axios from 'axios'
 import styles from './page.module.css'
 
-export default function Form() {
+export default function Login() {
   const [name, setName] = useState()
   const [password, setPassword] = useState()
 
@@ -25,8 +25,8 @@ export default function Form() {
         Meu cadastro
       </h1>
       <form onSubmit={checkUser}>
-        <div className={styles.divUser}>
-          <label className={styles.labelUser} htmlFor='name'>Nome</label>
+        <div className={styles.div_user}>
+          <label className={styles.label_user} htmlFor='name'>Nome</label>
           <input 
             type='name'
             id='name'
@@ -36,7 +36,7 @@ export default function Form() {
           />
         </div>
         <div className={styles.divPassword}>
-          <label className={styles.labelPassword} htmlFor='password'>Senha</label>
+          <label className={styles.label_password} htmlFor='password'>Senha</label>
           <input 
             type='password'
             id='password'

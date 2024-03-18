@@ -7,16 +7,16 @@
 .h1 {
   padding: 40px 0;
 }
-.divUser {
+.div_user {
   padding: 7px;
 }
-.labelUser {
+.label_user {
   padding: 10px;
 }
-.divPassword {
+.div_password {
   padding: 7px;
 }
-.labelPassword {
+.label_password {
   padding: 10px;
 }
 .button {
